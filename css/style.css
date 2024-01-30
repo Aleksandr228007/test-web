@@ -1,0 +1,239 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+
+
+
+
+.litForm{
+	text-align: center;
+}
+
+.h1 {
+	border: 5px solid #000;
+	border-radius: 15px;
+	background-color: rgba(64, 224, 208, 0.452);
+	text-align: center;
+
+}
+label{
+	margin: 100px;
+	color:rgb(180, 180, 180)
+}
+
+p{
+	color:rgb(180, 180, 180);
+	font-size: large;
+}
+
+.fNp{
+	margin-top: 10%;
+}
+
+.sNp{
+	margin-top: 20px;
+}
+
+.answer{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 5%;
+	height: 20%;
+	text-align: center;
+	border: 3px solid rgb(0, 0, 0);
+	border-radius: 20px;
+	transition: background-color 1s ease;
+	color:red;
+	padding-top: center;
+	
+}
+.answer #ans{
+	font-size: 100%;
+	
+	text-align: center;
+}
+
+.answer:hover {
+	background-color: white;
+	color:black;
+}
+.answer:hover #ans {
+    color: black; /* Изменение цвета текста внутри элемента с id="ans" при наведении на блок .answer */
+  }
+
+
+
+#firstNum {
+	text-align: center;
+	padding: 10px; /* Внутренние отступы */
+    border: 3px solid black; /* Граница текстового поля */
+    border-radius: 20px; /* Скругление углов */
+    color: white; /* Цвет текста */	
+	background-color: #000;
+	transition: background-color 1s ease;
+	font-size: 170%;
+}
+
+#secondNum {
+	text-align: center;
+	font-size: 170%;
+	padding: 10px; /* Внутренние отступы */
+    border: 3px solid black; /* Граница текстового поля */
+    border-radius: 20px; /* Скругление углов */
+    color: white; /* Цвет текста */	
+	background-color: #000;
+	transition: background-color 1s ease;
+}
+
+#answer {
+	text-align: center;
+	font-size: 170%;
+	padding: 10px; /* Внутренние отступы */
+    border: 3px solid black; /* Граница текстового поля */
+    border-radius: 20px; /* Скругление углов */
+    color: white; /* Цвет текста */	
+	background-color: #000;
+	transition: background-color 1s ease;
+}
+
+#firstNum:hover{
+	background-color: white;
+	color: black;
+}
+#secondNum:hover{
+	background-color: white;
+	color: black;
+
+}
+
+#answer:hover{
+	background-color: white;
+	color: black;
+
+}
+
+
+#firstNum:focus {
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 40px rgba(0, 123, 255, 0.5);
+}
+
+#secondNum:focus {
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 40px rgba(0, 123, 255, 0.5);
+}
+
+.plus{
+	color: #000;
+	padding: 0%;
+	width: 9%;
+	border-radius: 4px;
+	font-size: 30px;
+	background-color: rgba(1, 190, 118, 0.849);
+	transition: background-color 1s ease;
+	transition: box-shadow 1s ease;
+}
+
+.minus{
+	margin-top: 7px;
+	margin-left: 10px;
+	color: #000;
+	
+	width: 9%;
+	border-radius: 4px;
+	font-size: 30px;
+	background-color: rgba(190, 1, 1, 0.719);
+	transition: background-color 1s ease;
+	transition: box-shadow 1s ease;
+	
+}
+
+.minus:hover {
+	background-color: rgb(190, 1, 1);
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.plus:hover {
+	background-color: skyblue;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+	background-color: rgb(1, 190, 118);
+	
+}
+
+.plus:focus{
+	box-shadow: 0 0 40px rgba(0, 123, 255, 0.5);
+}
+
+.minus:focus{
+	box-shadow: 0 0 40px rgba(0, 123, 255, 0.5);
+}
+
+
+.form {
+	background-color: rgb(34, 34, 34); /* Замените 'red' на цвет, который вам нужен */
+	color: black;
+	height: 50%;
+	text-align: center;	
+}
+
+body{
+	background-color: rgb(34, 34, 34);}
+
+#myInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+	background-color: #000;
+	
+	
+}
+
+/* Дополнительные стили при фокусировке (если нужно) */
+#myInput:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 40px rgba(0, 123, 255, 0.5);
+	background-color: rgba(0, 123, 255, 1);
+	transition: background-color 0.3s ease;
+}
+
